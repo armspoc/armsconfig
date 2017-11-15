@@ -1,0 +1,11 @@
+spring:
+  boot:
+    admin:
+      url: http://localhost:9000
+management:
+  security:
+    enabled: false
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:10000/eureka/,http://localhost:10001/eureka/,http://localhost:10002/eureka/
