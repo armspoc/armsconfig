@@ -1,11 +1,11 @@
 spring:
   boot:
     admin:
-      url: http://localhost:9000
+      url: http://armsadmin-190954355.us-east-2.elb.amazonaws.com:8080
 management:
   security:
     enabled: false
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:10000/eureka/,http://localhost:10001/eureka/,http://localhost:10002/eureka/
+      defaultZone: http://armseureka1-2047230295.us-east-2.elb.amazonaws.com:8080/eureka/,http://armseureka2-1434493171.us-east-2.elb.amazonaws.com:8080
