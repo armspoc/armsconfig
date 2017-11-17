@@ -1,11 +1,7 @@
-spring:
-  boot:
-    admin:
-      url: http://armsadmin-190954355.us-east-2.elb.amazonaws.com:8080
 management:
   security:
     enabled: false
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://armseureka1-2047230295.us-east-2.elb.amazonaws.com:8080/eureka/,http://armseureka2-1434493171.us-east-2.elb.amazonaws.com:8080
+      defaultZone: config-779673595.us-east-2.elb.amazonaws.com
