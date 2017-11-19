@@ -12,4 +12,4 @@ spring:
     locator:
       discovery:
         enabled: true
-    base-url: http://arms-zipkin/
+    base-url: http://armszipkin/
