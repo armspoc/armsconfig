@@ -15,5 +15,5 @@ spring:
     baseurl: armszipkin
 turbine:
   aggregator:
-    clusterConfig: ARMSCALC
-  appConfig: armscalc
+    clusterConfig: ARMSCALC,ARMSMICROSERVICE
+  appConfig: armscalc,armsmicroservice
