@@ -12,7 +12,7 @@ spring:
     locator:
       discovery:
         enabled: true
-    baseurl: armszipkin
+    eurekaname: armszipkin
 turbine:
   aggregator:
     clusterConfig: ARMSCALC,ARMSMICROSERVICE
