@@ -13,3 +13,6 @@ spring:
       discovery:
         enabled: true
     base-url: http://armszipkin/
+turbine:
+  appConfig: armsmicroservice,armscalc
+  clusterNameExpression: "'default'"
